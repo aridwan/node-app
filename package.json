@@ -1,0 +1,27 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Hello jenkins test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aridwan/node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aridwan/node-app/issues"
+  },
+  "homepage": "https://github.com/aridwan/node-app#readme",
+  "dependencies": {
+    "express": "3.12.0"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  }
+}
